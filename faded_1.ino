@@ -1,14 +1,4 @@
-// Credit:
-// Midi to Arduino Converter
-//     - Andy Tran (extramaster), 2015
-// https://www.extramaster.net/tools/midiToArduino/
-//
-// Process:
-// Midi -> Midi tracks -> Note mappings -> Frequency
-//
-// CC0
 
-// Set this to be the pin that your buzzer resides in. (Note that you can only have one buzzer actively using the PWM signal at a time).
 int tonePin = 9;
 void setup() {
 
